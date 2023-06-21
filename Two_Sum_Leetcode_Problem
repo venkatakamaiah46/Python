@@ -1,0 +1,8 @@
+#Two Sum Leetcode Problem
+nums=[2,7,11,15]
+d={}#2:0,
+for i in range(len(nums)):
+        if 9-nums[i] in d:
+            print(d[9-nums[i]],i)
+        else:
+            d[nums[i]]=i
