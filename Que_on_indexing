@@ -1,0 +1,7 @@
+s = 'abcde' #o/p - 'edc'
+s1 = ['a1','a2','b1','b2']   #o/p- ['a2','b2']
+print(s[-1:-4:-1])
+c=[]
+for i in range(1,len(s1),2):
+    c.append(s1[i])
+print(c)
