@@ -1,0 +1,9 @@
+#convert First and Fourth letter to Upper Case if string has ore than 5 letters otherwise print "Too short"
+s='samarasimhareddy'
+if len(s)>5:
+    b=s[3].upper()
+    a=s[0].upper()
+    print(a+s[1:3]+b+s[5:])
+else:
+    print("Too short")
+    
