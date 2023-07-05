@@ -1,0 +1,7 @@
+#Checking_given_word_Polindrome_or_not
+
+pol='nitin'
+if pol[::-1]==pol:
+    print('y')
+else:
+    print('n')
