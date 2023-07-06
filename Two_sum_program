@@ -1,0 +1,13 @@
+List = [12,16,8,2,3,8,6,11]
+
+Sum = 17
+
+Output =  (6,7)
+
+
+for i in range(len(List)):
+	for j in range(len(List)):
+
+		if i<j and List[i]+List[j]==Sum:
+		
+			print(i,j)
