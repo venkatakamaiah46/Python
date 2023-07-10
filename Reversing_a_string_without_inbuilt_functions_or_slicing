@@ -1,0 +1,5 @@
+s='hiaehai'
+c=''
+for i in range(len(s)-1,-1,-1):
+    c+=s[i]
+print(c)
