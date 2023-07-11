@@ -1,0 +1,7 @@
+dict1 = {"Tom":67, "Tina": 54, "Akbar": 87, "Kane": 43, "Divya":73} 
+sorted_k = sorted(dict1.keys()) # Sort the keys 
+sorted_dict = {}  
+
+for i in sorted_k:     
+             sorted_dict[i]=dict1[i]
+print(sorted_dict)
